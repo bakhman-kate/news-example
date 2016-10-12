@@ -8,7 +8,6 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
-    'name' => 'Test ID20 Frontend',
     'homeUrl' => '/',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
@@ -24,8 +23,7 @@ return [
             'identityCookie' => ['name' => '_identity-frontend', 'httpOnly' => true],
         ],
         'session' => [            
-            'name' => 'advanced-frontend', // this is the name of the session cookie used for login on the frontend
-            'savePath' => 'C:/xampp/htdocs/test-id20/frontend/runtime/session'
+            'name' => 'advanced-frontend', // this is the name of the session cookie used for login on the frontend            
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

@@ -8,7 +8,6 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
-    'name' => 'Test ID20 Admin',
     'basePath' => dirname(__DIR__),
     'homeUrl' => '/admin',
     'controllerNamespace' => 'backend\controllers',
@@ -33,7 +32,7 @@ return [
             'cookieParams' => [
                 'path' => '/admin',
             ],
-            'savePath' => 'C:/xampp/htdocs/test-id20/backend/runtime/session'
+            //'savePath' => 'C:/xampp/htdocs/'
         ],        
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,

@@ -30,3 +30,8 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+/tests
+/LICENSE.md
+/yii
+/yii.bat

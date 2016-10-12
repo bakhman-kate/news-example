@@ -1,0 +1,17 @@
+{
+  "name": "test-id20",
+  "version": "1.0.0",
+  "description": "Test Yii2 Application Frontend (News list with search by theme and publication date) and backend (News, NewsThemes).",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
